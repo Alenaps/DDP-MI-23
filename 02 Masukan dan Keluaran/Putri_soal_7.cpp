@@ -7,16 +7,16 @@ using namespace std;
 
 
 int main() {
-    string x[12];
+    string sela1, apipah2, putri3, elsa4, abc5, cde6, hij7, klm8, opq9, rst10, uvw11, xyz12;
     
-    cin >> x[0] >> x[1] >> x[2];
-    cin >> x[3] >> x[4] >> x[5];
-    cin >> x[6] >> x[7] >> x[8];
-    cin >> x[9] >> x[10] >> x[11];
+    cin >> sela1 >> apipah2 >> putri3;
+    cin >> elsa4 >> abc5 >> cde6;
+    cin >> hij7 >> klm8 >> opq9;
+    cin >> rst10 >> uvw11 >> xyz12;
     
-    cout << x[0] << " " << x[3] << " " << x[6] << " " << x[9] << endl;
-    cout << x[1] << " " << x[4] << " " << x[7] << " " << x[10] << endl;
-    cout << x[2] << " " << x[5] << " " << x[8] << " " << x[11] << endl;
-    
+    cout << sela1 << " " << elsa4 << " " << hij7 << " " << rst10 << endl;
+    cout << apipah2 << " " << abc5 << " " << klm8 << " " << uvw11 << endl;
+    cout << putri3 << " " << cde6 << " " << opq9 << " " << xyz12;
+
     return 0;
 }
